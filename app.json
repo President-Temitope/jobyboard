@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "jobyboard",
+    "slug": "jobyboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+      "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "jobyboard.com"
+    },
+    "android": {
+      "package": "jobyboard.com"
+    }
+  }
+}
